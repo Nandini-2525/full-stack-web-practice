@@ -1,95 +1,28 @@
-/*display property-
-flex-direction
-flex-wrap
-flex-flow
-row-gap
-column-gap
-gap
-justify-content
-align-items
-align-content
-*/
 body{
 	margin: 0;
 }
 .container{
 	border: 6px solid black;
 	display: flex;
-/*  ****flex-direction**** */
-/*	flex-direction: row;*//*default value*/
-/*	flex-direction: row-reverse;*/
-/*	flex-direction: column;*/
 	height: 400px;
-/*	flex-direction: column-reverse;*/
-
-
-/*  **** flex-wrap**** */
-/*	flex-wrap: nowrap;*/
-/*	flex-wrap: wrap;*/
-/*	flex-wrap: wrap-reverse;*/
-/*	flex-flow: row nowrap;shorthand to flex-wrap and flex-direction*/
-	
-
-/*  ****gap**** */
-	/*column-gap: 20px;
-	row-gap: 30px;
-	gap: 40px 20px;*//*shorthand for column-gap and row-gap*/
-
-
-/*  ****justify-content**** */
-/*	justify-content: flex-start;*/
-/*	justify-content: flex-end;*/
-/*	justify-content: center;*/
-/*	justify-content: space-between;*/
-/*	justify-content: space-around;*/
-/*	justify-content: space-evenly;*/
-
-
-/*  ****alighn-items**** */
-/*	align-items: stretch;//default value*/
-/*	align-items: flex-start;*/
-/*	align-items: flex-end;*/
-/*	align-items: center;*/
-/*	align-items: baseline;*/
-
-/*  ****align-content**** */
-/*	align-content: stretch; /// default-value*/
-/*	align-content: flex-start;*/
-/*	align-content: flex-end;*/
-/*	align-content: center;*/
-/*	align-content: space-between;*/
-/*	align-content: space-around;*/
-	
-/**/
-
-
 }
 .flex-item{
 	color: antiquewhite;
 	font-size: 1.5rem;
 	padding: 1rem;
 	text-align: center;
-/*	flex-shrink: 1;*/
-/*	width: 6rem;*/
 }
 .item-1{
 	background-color: orange;
-/*	padding-bottom: 3rem;
-/*	flex-basis: auto;default value is auto*/
-/*	flex-grow: 1;*/
 	align-self: flex-start;
 }
 .item-2{
 	background-color: yellow;
-/*	padding-bottom: 5rem;*/
 	align-self: flex-end;
 
 }
 .item-3{
 	background-color: blue;
-/*	order: 1;*/
-/*	padding-bottom: 3rem;*/
-/*	flex-shrink: 4;*/
 	align-self: center;
 	
 }
@@ -98,21 +31,16 @@ body{
 }
 .item-5{
 	background-color: purple;
-/*	flex-grow: 0;/////zero is default value*/
-/*	flex-grow: 1;  //// ad additional space in flex-item */
 }
 .item-6{
 	background-color: mediumvioletred;
-/*	flex-grow: 3; flex-grow factor is relative*/
 }
 .item-7{
 	background-color: hotpink;
-/*	order: 2;*/
 }
 .item-8{
 	background-color: violet;
 }
 .item-9{
 	background-color: aquamarine;
-/*	order: 1;*/
 }
